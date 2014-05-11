@@ -11,8 +11,8 @@ EPCdata$Date <- as.Date(EPCdata$Date,format="%d/%m/%Y")
 EPCsubset <- subset(EPCdata, EPCdata$Date %in% as.Date(c("2007-02-01", "2007-02-02")))
 
 ## convert variable of interest from factor into numeric for correct scaling in plots
-## I first tried directly converting to numeric but ended up with very large numbers
-## found thread https://class.coursera.org/exdata-002/forum/thread?thread_id=99#post-359
+## I first tried directly converting to numeric but ended up with very large numbers.
+## Then found thread https://class.coursera.org/exdata-002/forum/thread?thread_id=99#post-359
 ## where various people suggested converting first to character before to numeric
 ## because the var contains small decimal numbers as factors, and converting them 
 ## directly to numeric makes "whole" numbers out of them

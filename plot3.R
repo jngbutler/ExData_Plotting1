@@ -16,7 +16,7 @@ EPCsubset$datetime <- as.POSIXct(paste(EPCsubset$Date,EPCsubset$Time))
 
 ## convert variables of interest from factor into numeric for correct scaling in plots
 ## I first tried directly converting to numeric but ended up with very large numbers.
-## Found thread https://class.coursera.org/exdata-002/forum/thread?thread_id=99#post-359
+## Then found thread https://class.coursera.org/exdata-002/forum/thread?thread_id=99#post-359
 ## where various people suggested converting first to character before to numeric
 ## because the var contains small decimal numbers as factors, and converting them 
 ## directly to numeric makes "whole" numbers out of them
