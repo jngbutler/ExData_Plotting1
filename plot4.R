@@ -59,5 +59,4 @@ plot(EPCsubset$datetime,EPCsubset$Voltage, type = "l",
      xlab="datetime", ylab="Voltage")
 plot(EPCsubset$datetime,EPCsubset$Global_reactive_power, type = "l",
      xlab="datetime", ylab="Global_reactive_power")
-dev.off()
-
+dev.off() 
