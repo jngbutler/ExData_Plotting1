@@ -30,4 +30,4 @@ plot(EPCsubset$datetime,EPCsubset$Global_active_power,
 
 ## save to PNG with width=480 and height=480
 dev.copy(png, file= "plot2.png", width = 480, height = 480)
-dev.off()
+dev.off() 
